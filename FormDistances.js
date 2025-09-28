@@ -17,10 +17,10 @@ function setThePicture() {
     let selectDistance2 = document.getElementById("selectDistance").value;
     let selectKind = document.getElementById("selectKind").value;
     if (selectDistance2 == "second" && selectKind == "completeOrBig") {
-        resultImage.src = "../images/BigSecond.png";
+        resultImage.src = "images/BigSecond.png";
     }
     else if (selectDistance2 == "second" && selectKind == "added") {
-        resultImage.src = "../images/AddedSecond.png";
+        resultImage.src = "images/AddedSecond.png";
     }
     else {
         resultImage.src = "";
@@ -38,13 +38,14 @@ window.onload = function AlwaysCheck() {
     let selectDistance2 = document.getElementById("selectDistance").value;
     let selectKind = document.getElementById("selectKind").value;
     if (selectDistance2 == "second" && selectKind == "completeOrBig") {
-        resultImage.src = "../images/BigSecond.png";
+        resultImage.src = "images/BigSecond.png";
     }
     else if (selectDistance2 == "second" && selectKind == "added") {
-        resultImage.src = "../images/AddedSecond.png";
+        resultImage.src = "images/AddedSecond.png";
     }
     else {
         resultImage.src = "";
     }
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
