@@ -127,7 +127,7 @@ body {
     min-height: 10vw;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/Footer\ Background.jpg);
+    background-image: url(images/Footer\ Background.jpg);
     flex-direction: column;
     gap: 30px;
 }
@@ -237,4 +237,5 @@ body {
     .privacy__text {
         font-size: 2vw;
     }
+
 }
