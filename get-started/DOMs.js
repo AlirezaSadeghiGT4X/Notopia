@@ -315,12 +315,15 @@ export const DOMs = [
                     <div
                         class="bg-white mx-auto px-2 md:px-4 lg:px-8 py-3 md:py-6 rounded-xl flex flex-col gap-1 md:gap-2 sm:w-110 lg:w-140">
                         <section>
+                            <div class="w-full text-center">
+                                <p>حالا تو رو خیلی بهتر می‌شناسیم!</p>
+                            </div>
                             <div class="flex justify-between items-center">
                                 <h2 class="text-base font-bold">سطح دانش تئوری موسیقی شما:</h2>
                                 <div class="text-sm font-light">
-                                    <span id="percent">00</span>
-                                    <span>از</span>
                                     <span>100</span>
+                                    <span>/</span>
+                                    <span id="percent">00</span>
                                 </div>
                             </div>
                             <div class="w-full flex flex-col items-center gap-1">
