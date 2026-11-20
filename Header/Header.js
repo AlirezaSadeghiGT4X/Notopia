@@ -41,6 +41,12 @@ function GoToGetStartedPage() {
     }, 1000)
     CloseDropdown()
 }
+function GoToEducationPage() {
+    setTimeout(() => {
+        window.location.href = '/Education/'
+    }, 1000)
+    CloseDropdown()
+}
 function GoToHomePage() {
     setTimeout(() => {
         window.location.href = '/'
