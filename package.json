@@ -2,7 +2,6 @@
   "dependencies": {
     "@lottiefiles/lottie-player": "^2.0.12",
     "@tailwindcss/cli": "^4.3.3",
-    "lucide": "^1.79.0",
     "tailwindcss": "^4.3.3"
   }
 }
